@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  php:
+    build: .
+    ports:
+      - "85:80"
+    volumes:
+      - "./app:/var/www/html"
+      - "./app/apache:/etc/apache2/sites-available"
+    links:
+      - database
+  database:
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_DATABASE=db
+    volumes:
+      - "./mysql-init:/docker-entrypoint-initdb.d"

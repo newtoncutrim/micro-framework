@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/femix_website_2020" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/gigaAuto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/gigaAuto-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/gigaAuto2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/munaretto_site_2024" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/orblight_site_2024" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../projetos D3T/seeth_sistema_2023" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
