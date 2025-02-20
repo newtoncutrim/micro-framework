@@ -1,0 +1,12 @@
+{
+  "name": "newton/microframework",
+  "description": "Microframework",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2.0"
+  }
+}
