@@ -9,7 +9,7 @@
 <h1>Lista de Usuários</h1>
 
 <?php foreach ($users as $user): ?>
-    <p><?= htmlspecialchars($user['name']) ?></p>
+    <p><?= htmlspecialchars($user['nome']) ?></p>
     <p><?= htmlspecialchars($user['email']) ?></p>
 <?php endforeach; ?>
 </body>
